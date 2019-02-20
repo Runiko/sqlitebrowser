@@ -147,12 +147,6 @@ static QString shortcutsTip(const QList<QKeySequence>& keys)
     return tip;
 }
 
-static void addShortcutsTooltip(QWidget* widget, const QList<QKeySequence>& keys)
-{
-    if (!keys.isEmpty())
-        widget->setToolTip(widget->toolTip() + shortcutsTip(keys));
-}
-
 static void addShortcutsTooltip(QAction* action, const QList<QKeySequence>& extraKeys = QList<QKeySequence>())
 {
     if (!action->shortcuts().isEmpty() || !extraKeys.isEmpty())
@@ -171,6 +165,15 @@ void MainWindow::init()
     QOpenGLWidget *ogl = new QOpenGLWidget(this);
     ui->horizontalLayout->addWidget(ogl);
     ogl->setHidden(true);
+#endif
+
+    // Automatic update check
+#ifdef CHECKNEWVERSION
+    connect(m_remoteDb, &RemoteDatabase::networkReady, [this]() {
+        // Check for a new version if automatic update check aren't disabled in the settings dialog
+        if(Settings::getValue("checkversion", "enabled").toBool())
+            m_remoteDb->fetch("https://download.sqlitebrowser.org/currentrelease", RemoteDatabase::RequestTypeNewVersionCheck);
+    });
 #endif
 
     // Connect SQL logging and database state setting to main window
@@ -278,7 +281,7 @@ void MainWindow::init()
     popupNewRecordMenu = new QMenu(this);
     popupNewRecordMenu->addAction(ui->newRecordAction);
     popupNewRecordMenu->addAction(ui->insertValuesAction);
-    ui->buttonNewRecord->setMenu(popupNewRecordMenu);
+    ui->actionNewRecord->setMenu(popupNewRecordMenu);
 
     popupSaveSqlFileMenu = new QMenu(this);
     popupSaveSqlFileMenu->addAction(ui->actionSqlSaveFile);
@@ -294,8 +297,8 @@ void MainWindow::init()
     popupSaveFilterAsMenu = new QMenu(this);
     popupSaveFilterAsMenu->addAction(ui->actionFilteredTableExportCsv);
     popupSaveFilterAsMenu->addAction(ui->actionFilterSaveAsView);
-    ui->buttonSaveFilterAsPopup->setMenu(popupSaveFilterAsMenu);
-    ui->buttonSaveFilterAsPopup->setPopupMode(QToolButton::InstantPopup);
+    ui->actionSaveFilterAsPopup->setMenu(popupSaveFilterAsMenu);
+    qobject_cast<QToolButton*>(ui->browseToolbar->widgetForAction(ui->actionSaveFilterAsPopup))->setPopupMode(QToolButton::InstantPopup);
 
     popupBrowseDataHeaderMenu = new QMenu(this);
     popupBrowseDataHeaderMenu->addAction(ui->actionShowRowidColumn);
@@ -510,8 +513,8 @@ void MainWindow::init()
 
     addShortcutsTooltip(ui->actionDbPrint);
 
-    addShortcutsTooltip(ui->buttonRefresh, {shortcutBrowseRefreshF5->key(), shortcutBrowseRefreshCtrlR->key()});
-    addShortcutsTooltip(ui->buttonPrintTable, {shortcutPrint->key()});
+    addShortcutsTooltip(ui->actionRefresh, {shortcutBrowseRefreshCtrlR->key()});
+    addShortcutsTooltip(ui->actionPrintTable);
 
     addShortcutsTooltip(ui->actionSqlOpenTab);
     addShortcutsTooltip(ui->actionSqlPrint);
@@ -523,15 +526,6 @@ void MainWindow::init()
 
     // Load all settings
     reloadSettings();
-
-#ifdef CHECKNEWVERSION
-    // Check for a new version if automatic update check aren't disabled in the settings dialog
-    if(Settings::getValue("checkversion", "enabled").toBool())
-    {
-        m_remoteDb->fetch("https://download.sqlitebrowser.org/currentrelease",
-                          RemoteDatabase::RequestTypeNewVersionCheck);
-    }
-#endif
 
 #ifndef ENABLE_SQLCIPHER
     // Only show encryption menu action when SQLCipher support is enabled
@@ -1740,7 +1734,10 @@ void MainWindow::importDatabaseFromSQL()
             return;
         }
 
+        // Create the new file and open it in the browser
         db.create(newDbFile);
+        db.close();
+        fileOpen(newDbFile);
     }
 
     // Defer foreign keys. Just deferring them instead of disabling them should work fine because in the import we only expect CREATE and INSERT
@@ -1766,14 +1763,9 @@ void MainWindow::importDatabaseFromSQL()
     // Restore the former foreign key settings
     db.setPragma("defer_foreign_keys", foreignKeysOldSettings);
 
-    // Refresh window when importing into an existing DB or - when creating a new file - just open it correctly
-    if(newDbFile.size())
-    {
-        fileOpen(newDbFile);
-    } else {
-        db.updateSchema();
-        populateTable();
-    }
+    // Refresh views
+    db.updateSchema();
+    populateTable();
 }
 
 void MainWindow::openPreferences()
@@ -1974,8 +1966,8 @@ void MainWindow::activateFields(bool enable)
     ui->buttonBoxPragmas->setEnabled(enable && write);
     ui->buttonGoto->setEnabled(enable);
     ui->editGoto->setEnabled(enable);
-    ui->buttonRefresh->setEnabled(enable);
-    ui->buttonPrintTable->setEnabled(enable);
+    ui->actionRefresh->setEnabled(enable);
+    ui->actionPrintTable->setEnabled(enable);
     ui->actionExecuteSql->setEnabled(enable);
     ui->actionLoadExtension->setEnabled(enable);
     ui->actionSqlExecuteLine->setEnabled(enable);
@@ -1987,8 +1979,8 @@ void MainWindow::activateFields(bool enable)
     ui->actionQuickCheck->setEnabled(enable);
     ui->actionForeignKeyCheck->setEnabled(enable);
     ui->actionOptimize->setEnabled(enable);
-    ui->buttonClearFilters->setEnabled(enable);
-    ui->buttonSaveFilterAsPopup->setEnabled(enable);
+    ui->actionClearFilters->setEnabled(enable);
+    ui->actionSaveFilterAsPopup->setEnabled(enable);
     ui->dockEdit->setEnabled(enable);
     ui->dockPlot->setEnabled(enable);
 
@@ -2369,6 +2361,9 @@ void MainWindow::reloadSettings()
     ui->dataTable->reloadSettings();
 
     setToolButtonStyle(static_cast<Qt::ToolButtonStyle>(Settings::getValue("General", "toolbarStyle").toInt()));
+    ui->dbToolbar->setToolButtonStyle(static_cast<Qt::ToolButtonStyle>(Settings::getValue("General", "toolbarStyleStructure").toInt()));
+    ui->browseToolbar->setToolButtonStyle(static_cast<Qt::ToolButtonStyle>(Settings::getValue("General", "toolbarStyleBrowse").toInt()));
+    ui->toolbarSql->setToolButtonStyle(static_cast<Qt::ToolButtonStyle>(Settings::getValue("General", "toolbarStyleSql").toInt()));
 
     // Set prefetch sizes for lazy population of table models
     m_browseTableModel->setChunkSize(Settings::getValue("db", "prefetchsize").toInt());
@@ -3181,11 +3176,11 @@ void MainWindow::editEncryption()
         if(ok)
             ok = db.executeSQL(QString("PRAGMA sqlitebrowser_edit_encryption.cipher_page_size = %1").arg(cipherSettings.getPageSize()), false, false);
         if(ok)
-            ok = db.executeSQL(QString("PRAGMA sqlitebrowser_edit_encryption.kdf_iter = %1").arg(cipherSettings.getKdfIterations()), false, false);
-        if(ok)
             ok = db.executeSQL(QString("PRAGMA sqlitebrowser_edit_encryption.cipher_hmac_algorithm = %1").arg(cipherSettings.getHmacAlgorithm()), false, false);
         if(ok)
             ok = db.executeSQL(QString("PRAGMA sqlitebrowser_edit_encryption.cipher_kdf_algorithm = %1").arg(cipherSettings.getKdfAlgorithm()), false, false);
+        if(ok)
+            ok = db.executeSQL(QString("PRAGMA sqlitebrowser_edit_encryption.kdf_iter = %1").arg(cipherSettings.getKdfIterations()), false, false);
 
         // Export the current database to the new one
         qApp->processEvents();
@@ -3235,7 +3230,7 @@ void MainWindow::switchToBrowseDataTab(QString tableToBrowse)
     ui->mainTab->setCurrentWidget(ui->browser);
 }
 
-void MainWindow::on_buttonClearFilters_clicked()
+void MainWindow::on_actionClearFilters_triggered()
 {
     ui->dataTable->filterHeader()->clearFilters();
 }
@@ -3327,7 +3322,7 @@ void MainWindow::showRecordPopupMenu(const QPoint& pos)
             }
     });
 
-    QAction* deleteRecordAction = new QAction(ui->buttonDeleteRecord->text(), &popupRecordMenu);
+    QAction* deleteRecordAction = new QAction(QIcon(":icons/delete_record"), ui->actionDeleteRecord->text(), &popupRecordMenu);
     popupRecordMenu.addAction(deleteRecordAction);
 
     connect(deleteRecordAction, &QAction::triggered, [&]() {
@@ -3353,7 +3348,7 @@ void MainWindow::editDataColumnDisplayFormat()
     QString current_displayformat = browseTableSettings[current_table].displayFormats[field_number];
 
     // Open the dialog
-    ColumnDisplayFormatDialog dialog(field_name, current_displayformat, this);
+    ColumnDisplayFormatDialog dialog(db, current_table, field_name, current_displayformat, this);
     if(dialog.exec())
     {
         // Set the newly selected display format
@@ -3722,13 +3717,13 @@ void MainWindow::updateInsertDeleteRecordButton()
     // at least one row to be selected. For the insert button there is an extra rule to disable it when we are browsing a view because inserting
     // into a view isn't supported yet.
     bool isEditable = m_browseTableModel->isEditable() && !db.readOnly();
-    ui->buttonNewRecord->setEnabled(isEditable && !m_browseTableModel->hasPseudoPk());
-    ui->buttonDeleteRecord->setEnabled(isEditable && rows != 0);
+    ui->actionNewRecord->setEnabled(isEditable && !m_browseTableModel->hasPseudoPk());
+    ui->actionDeleteRecord->setEnabled(isEditable && rows != 0);
 
     if(rows > 1)
-        ui->buttonDeleteRecord->setText(tr("Delete Records"));
+        ui->actionDeleteRecord->setText(tr("Delete Records"));
     else
-        ui->buttonDeleteRecord->setText(tr("Delete Record"));
+        ui->actionDeleteRecord->setText(tr("Delete Record"));
 }
 
 void MainWindow::runSqlNewTab(const QString& query, const QString& title)
