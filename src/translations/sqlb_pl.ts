@@ -6,7 +6,7 @@
     <message>
         <location filename="../AboutDialog.ui" line="14"/>
         <source>About DB Browser for SQLite</source>
-        <translation>O Przeglądarce baz danych dla SQLite</translation>
+        <translation>O DB Browser dla SQLite</translation>
     </message>
     <message>
         <location filename="../AboutDialog.ui" line="47"/>
@@ -16,12 +16,12 @@
     <message>
         <location filename="../AboutDialog.ui" line="102"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DB Browser for SQLite is an open source, freeware visual tool used to create, design and edit SQLite database files.&lt;/p&gt;&lt;p&gt;It is bi-licensed under the Mozilla Public License Version 2, as well as the GNU General Public License Version 3 or later. You can modify or redistribute it under the conditions of these licenses.&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://www.gnu.org/licenses/gpl.html&quot;&gt;http://www.gnu.org/licenses/gpl.html&lt;/a&gt; and &lt;a href=&quot;https://www.mozilla.org/MPL/2.0/index.txt&quot;&gt;https://www.mozilla.org/MPL/2.0/index.txt&lt;/a&gt; for details.&lt;/p&gt;&lt;p&gt;For more information on this program please visit our website at: &lt;a href=&quot;http://sqlitebrowser.org&quot;&gt;http://sqlitebrowser.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;This software uses the GPL/LGPL Qt Toolkit from &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt;&lt;br/&gt;See &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/licensing.html&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/doc/qt-5/licensing.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; for licensing terms and information.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;It also uses the Silk icon set by Mark James licensed under a Creative Commons Attribution 2.5 and 3.0 license.&lt;br/&gt;See &lt;/span&gt;&lt;a href=&quot;http://www.famfamfam.com/lab/icons/silk/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://www.famfamfam.com/lab/icons/silk/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; for details.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Preglądarka Bazy Danych dla SQLite jest darmowym otwartym oprogramowaniem przeznaczonym do wizualnej edycji i kreacji  plików bazy danych SQLite.&lt;/p&gt;&lt;p&gt;Program podlega podwójnej licencji użytkowania: Publiczna licencja Mozilli Wersja 2 jak również Powszechna Licencja Publiczna GNU wersja 3 i poźniejsza. Możesz modyfikować i rozpowszechniać program pod warunkami zawartymi w tych licencjach.&lt;/p&gt;&lt;p&gt;Zobacz &lt;a href=&quot;http://www.gnu.org/licenses/gpl.html&quot;&gt;http://www.gnu.org/licenses/gpl.html&lt;/a&gt; i &lt;a href=&quot;https://www.mozilla.org/MPL/2.0/index.txt&quot;&gt;https://www.mozilla.org/MPL/2.0/index.txt&lt;/a&gt; dla szczegołów.&lt;/p&gt;&lt;p&gt;Odwiedź naszą stronę internetową aby zapoznać się z informacją na temat diałania tego programu: &lt;a href=&quot;http://sqlitebrowser.org&quot;&gt;http://sqlitebrowser.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;To oprogramowanie używa GPL/LGPL Qt Toolkit z: &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt;&lt;br/&gt;Zobacz &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/licensing.html&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/doc/qt-5/licensing.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; na temat licancji i użytkowania.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;Używany również jest zestaw ikon Silk stworzony przez Mark James pod licencjią Creative Commons Attribution 2.5 i 3.0.&lt;br/&gt;Zobacz &lt;/span&gt;&lt;a href=&quot;http://www.famfamfam.com/lab/icons/silk/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://www.famfamfam.com/lab/icons/silk/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; dla dalszej informacji.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DB Browser dla SQLite jest darmowym otwartym oprogramowaniem przeznaczonym do wizualnej edycji i kreacji  plików bazy danych SQLite.&lt;/p&gt;&lt;p&gt;Program podlega podwójnej licencji użytkowania: Publiczna licencja Mozilli Wersja 2 jak również Powszechna Licencja Publiczna GNU wersja 3 i poźniejsza. Możesz modyfikować i rozpowszechniać program pod warunkami zawartymi w tych licencjach.&lt;/p&gt;&lt;p&gt;Zobacz &lt;a href=&quot;http://www.gnu.org/licenses/gpl.html&quot;&gt;http://www.gnu.org/licenses/gpl.html&lt;/a&gt; i &lt;a href=&quot;https://www.mozilla.org/MPL/2.0/index.txt&quot;&gt;https://www.mozilla.org/MPL/2.0/index.txt&lt;/a&gt; dla szczegołów.&lt;/p&gt;&lt;p&gt;Odwiedź naszą stronę internetową aby zapoznać się z informacją na temat diałania tego programu: &lt;a href=&quot;http://sqlitebrowser.org&quot;&gt;http://sqlitebrowser.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;To oprogramowanie używa GPL/LGPL Qt Toolkit z: &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt;&lt;br/&gt;Zobacz &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/licensing.html&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/doc/qt-5/licensing.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; na temat licancji i użytkowania.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;Używany również jest zestaw ikon Silk stworzony przez Mark James pod licencjią Creative Commons Attribution 2.5 i 3.0.&lt;br/&gt;Zobacz &lt;/span&gt;&lt;a href=&quot;http://www.famfamfam.com/lab/icons/silk/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://www.famfamfam.com/lab/icons/silk/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; dla dalszej informacji.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../AboutDialog.cpp" line="19"/>
         <source> (based on SQLite %1)</source>
-        <translation></translation>
+        <translation> (oparte na SQLite %1)</translation>
     </message>
     <message>
         <location filename="../AboutDialog.cpp" line="21"/>
@@ -54,7 +54,7 @@
     <message>
         <location filename="../AddRecordDialog.ui" line="27"/>
         <source>Enter values for the new record considering constraints. Fields in bold are mandatory.</source>
-        <translation>Podaj wartości dla nowego rekordu zwracając uwagę na ograniczenia.Pola wytłusczone są obowiązkowe.</translation>
+        <translation>Podaj wartości dla nowego rekordu zwracając uwagę na ograniczenia. Pola wytłuszczone są obowiązkowe.</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="67"/>
@@ -79,7 +79,7 @@
     <message>
         <location filename="../AddRecordDialog.ui" line="87"/>
         <source>Values to insert. Pre-filled default values are inserted automatically unless they are changed.</source>
-        <translation>Wartości do wstawienia. Pola wypełnione są automatycznie domyślnymi wartościami wtedy tylko gdy te wartości nie są ręcznie zmienione.</translation>
+        <translation>Wartości do wstawienia. Pola wypełnione są automatycznie domyślnymi wartościami tylko wtedy, gdy te wartości nie są ręcznie zmienione.</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="93"/>
@@ -182,7 +182,7 @@
     <message>
         <location filename="../Application.cpp" line="93"/>
         <source>  -o, --option [group/setting=value]	Run application with this setting temporarily set to value</source>
-        <translation type="unfinished"></translation>
+        <translation>  -o, --option [grupa/ustawienie=wartość]	Uruchom aplikację z tymczasowymi ustawieniami dla wartości</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="94"/>
@@ -197,7 +197,7 @@
     <message>
         <location filename="../Application.cpp" line="97"/>
         <source>This is DB Browser for SQLite version %1.</source>
-        <translation>Oto Przeglądarka baz danych dla SQLite w wersji %1.</translation>
+        <translation>Oto DB Browser dla SQLite w wersji %1.</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="102"/>
@@ -217,7 +217,7 @@
     <message>
         <location filename="../Application.cpp" line="118"/>
         <source>The -o/--option option requires an argument in the form group/setting=value</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja -o/--option wymaga argumentu w postaci grupa/ustawienie=wartość</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="138"/>
@@ -311,12 +311,12 @@ Jeśli zostały zmienione jakiekolwiek dodatkowe ustawienia dla pliku tej bazy d
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="16"/>
         <source>Hex blob</source>
-        <translation>Blob szestnastkowy</translation>
+        <translation>Blob szesnastkowy</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="17"/>
         <source>Hex number</source>
-        <translation>Numer szestnastkowy</translation>
+        <translation>Numer szesnastkowy</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="18"/>
@@ -399,7 +399,7 @@ Jeśli zostały zmienione jakiekolwiek dodatkowe ustawienia dla pliku tej bazy d
     <message>
         <location filename="../sqlitedb.cpp" line="576"/>
         <source>Do you really want to close this temporary database? All data will be lost.</source>
-        <translation>Czy na pewno chcesz zamknąć tę tymczasową bazę danych? Wszelkie zmiany bedą zapomniane.</translation>
+        <translation>Czy na pewno chcesz zamknąć tę tymczasową bazę danych? Wszelkie zmiany zostaną utracone.</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="581"/>
@@ -419,7 +419,7 @@ Jeśli zostały zmienione jakiekolwiek dodatkowe ustawienia dla pliku tej bazy d
     <message>
         <location filename="../sqlitedb.cpp" line="683"/>
         <source>Exporting database to SQL file...</source>
-        <translation>Eksportowanie bazy danych do pliku SQL…</translation>
+        <translation>Eksportowanie bazy danych do pliku SQL...</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="684"/>
@@ -436,7 +436,7 @@ Jeśli zostały zmienione jakiekolwiek dodatkowe ustawienia dla pliku tej bazy d
     <message>
         <location filename="../sqlitedb.cpp" line="912"/>
         <source>Executing SQL...</source>
-        <translation>Wykonywanie SQL…</translation>
+        <translation>Wykonywanie SQL...</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="934"/>
@@ -480,7 +480,7 @@ Przerywam wykonywanie%3.</translation>
     <message>
         <location filename="../sqlitedb.cpp" line="1356"/>
         <source>renameColumn: creating savepoint failed. DB says: %1</source>
-        <translation>renameColumn(zmiana nazwy kolumny): błąd przy zapisie. Baza Danych zwraca: %1</translation>
+        <translation>renameColumn(zmiana nazwy kolumny): błąd przy zapisie. Baza danych zwróciła: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1402"/>
@@ -523,7 +523,7 @@ Przerywam wykonywanie%3.</translation>
     <message>
         <location filename="../sqlitedb.cpp" line="1580"/>
         <source>... &lt;string can not be logged, contains binary data&gt; ...</source>
-        <translation>... &lt;string nie można zalogować zawiera dane w postaci binarnej&gt; ...</translation>
+        <translation>... &lt;ciąg znaków nie może być zapisany do logu, zawiera dane w postaci binarnej&gt; ...</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1683"/>
@@ -685,7 +685,7 @@ Przerywam wykonywanie%3.</translation>
     <message>
         <location filename="../EditDialog.ui" line="82"/>
         <source>Auto-switch</source>
-        <translation>Automatyczny przełącznik</translation>
+        <translation>Przełącz automatycznie</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="116"/>
@@ -758,7 +758,9 @@ Przerywam wykonywanie%3.</translation>
         <source>This editor mode lets you edit JSON or XML data with syntax highlighting, automatic formatting and validation before saving.
 
 Errors are indicated with a red squiggle underline.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ten tryb edytora pozwoli Ci edytować dane JSON lub XML z podświetleniem składni, automatycznym formatowaniem i walidacją przed zapisem.
+
+Błędy są zaznaczone za pomocą podkreślenia czerwoną linią.</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="267"/>
@@ -805,7 +807,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditDialog.ui" line="336"/>
         <source>Open preview dialog for printing displayed text</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz podgląd wydruku dla aktualnie wyświetlonego tekstu</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="348"/>
@@ -815,7 +817,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditDialog.ui" line="351"/>
         <source>Copy selected hexadecimal and ASCII columns to the clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiuj zaznaczone kolumny szesnastkowe i ASCII do schowka</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="354"/>
@@ -852,7 +854,7 @@ Errors are indicated with a red squiggle underline.</source>
         <location filename="../EditDialog.cpp" line="385"/>
         <location filename="../EditDialog.cpp" line="387"/>
         <source>Text files (*.txt)</source>
-        <translation>Pliki Tekstowe (*.txt)</translation>
+        <translation>Pliki tekstowe (*.txt)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="313"/>
@@ -873,14 +875,14 @@ Errors are indicated with a red squiggle underline.</source>
         <location filename="../EditDialog.cpp" line="315"/>
         <location filename="../EditDialog.cpp" line="332"/>
         <source>Image files (%1)</source>
-        <translation>Piki graficzne (%1)</translation>
+        <translation>Piki obrazów (%1)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="316"/>
         <location filename="../EditDialog.cpp" line="329"/>
         <location filename="../EditDialog.cpp" line="380"/>
         <source>Binary files (*.bin)</source>
-        <translation>Pliki Binarne (*.bin)</translation>
+        <translation>Pliki binarne (*.bin)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="316"/>
@@ -896,7 +898,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditDialog.cpp" line="376"/>
         <source>%1 Image</source>
-        <translation>%1 Grafika</translation>
+        <translation>%1 Obraz</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="393"/>
@@ -942,7 +944,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditDialog.cpp" line="475"/>
         <source>The cell contains invalid %1 data. Reason: %2. Do you really want to apply it to the cell?</source>
-        <translation type="unfinished"></translation>
+        <translation>Komórka zawiera nieprawidłowe %1 dane. Powód: %2. Czy na pewno chcesz je zapisać?</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="765"/>
@@ -969,7 +971,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditDialog.cpp" line="935"/>
         <source>%1x%2 pixel(s)</source>
-        <translation>%1x%2 piksel(e)</translation>
+        <translation>%1x%2 piksel(i)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="946"/>
@@ -1057,7 +1059,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditIndexDialog.ui" line="237"/>
         <source>Order</source>
-        <translation>Porządek</translation>
+        <translation>Kolejność</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.cpp" line="268"/>
@@ -1149,7 +1151,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditTableDialog.ui" line="249"/>
         <source>Not null</source>
-        <translation>Nie pusty</translation>
+        <translation>Niepusty</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="254"/>
@@ -1159,7 +1161,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditTableDialog.ui" line="257"/>
         <source>Primary key</source>
-        <translation type="unfinished"></translation>
+        <translation>Klucz główny</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="262"/>
@@ -1169,7 +1171,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditTableDialog.ui" line="265"/>
         <source>Autoincrement</source>
-        <translation type="unfinished"></translation>
+        <translation>Autonumerowanie</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="270"/>
@@ -1204,7 +1206,7 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditTableDialog.ui" line="294"/>
         <source>Foreign Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Klucz obcy</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="314"/>
@@ -1215,12 +1217,13 @@ Errors are indicated with a red squiggle underline.</source>
         <location filename="../EditTableDialog.cpp" line="167"/>
         <source>Error creating table. Message from database engine:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd podczas tworzenia tabeli. Silnik bazy danych zwrócił:
+%1</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="291"/>
         <source>There already is a field with that name. Please rename it first or choose a different name for this field.</source>
-        <translation type="unfinished"></translation>
+        <translation>Istnieje pole o takiej nazwie. Zmień najpierw jego nazwę lub wybierz inną dla tego pola.</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="314"/>
@@ -1303,7 +1306,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportDataDialog.ui" line="77"/>
         <source>Fie&amp;ld separator</source>
-        <translation>Znak oddzie&amp;lający pola</translation>
+        <translation>Separator pó&amp;l</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="102"/>
@@ -1412,7 +1415,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportDataDialog.cpp" line="351"/>
         <source>Choose a directory</source>
-        <translation>Wybierz położenie</translation>
+        <translation>Wybierz katalog</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="382"/>
@@ -1425,7 +1428,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportSqlDialog.ui" line="14"/>
         <source>Export SQL...</source>
-        <translation>Eksportuj SQL…</translation>
+        <translation>Eksportuj SQL...</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="35"/>
@@ -1455,7 +1458,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportSqlDialog.ui" line="95"/>
         <source>Multiple rows (VALUES) per INSERT statement</source>
-        <translation>Wiele rzędów (Wartości) dla polecenia INSERT</translation>
+        <translation>Wiele rzędów (VALUES) dla polecenia INSERT</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="116"/>
@@ -1480,7 +1483,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportSqlDialog.ui" line="140"/>
         <source>Overwrite old schema (DROP TABLE, then CREATE TABLE)</source>
-        <translation>Zastąp poprzedni schemat (DROP TABLE, then CREATE TABLE)</translation>
+        <translation>Nadpisz poprzedni schemat (DROP TABLE, then CREATE TABLE)</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="74"/>
@@ -1525,7 +1528,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExtendedScintilla.cpp" line="231"/>
         <source>Find and Replace...</source>
-        <translation>Znajdź i zamień…</translation>
+        <translation>Znajdź i zamień...</translation>
     </message>
     <message>
         <location filename="../ExtendedScintilla.cpp" line="235"/>
@@ -1543,37 +1546,37 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="196"/>
         <source>Containing</source>
-        <translation type="unfinished"></translation>
+        <translation>Zawiera</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="197"/>
         <source>Not equal to</source>
-        <translation type="unfinished"></translation>
+        <translation>Nierówne</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="198"/>
         <source>Greater than</source>
-        <translation type="unfinished"></translation>
+        <translation>Większe niż</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="199"/>
         <source>Less than</source>
-        <translation type="unfinished"></translation>
+        <translation>Mniejsze niż</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="200"/>
         <source>Greater or equal</source>
-        <translation type="unfinished"></translation>
+        <translation>Większe lub równe</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="201"/>
         <source>Less or equal</source>
-        <translation type="unfinished"></translation>
+        <translation>Mniejsze lub równe</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="202"/>
         <source>Between this and...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomiędzy tym i...</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="204"/>
@@ -1588,12 +1591,12 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="206"/>
         <source>Copy with Headers</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiuj z nagłówkami</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="207"/>
         <source>Copy as SQL</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiuj jako SQL</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="208"/>
@@ -1603,7 +1606,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="209"/>
         <source>Print...</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukuj...</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="212"/>
@@ -1627,13 +1630,14 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="241"/>
         <source>Ctrl+Alt+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+C</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="584"/>
         <source>The content of the clipboard is bigger than the range selected.
 Do you want to insert it anyway?</source>
-        <translation type="unfinished"></translation>
+        <translation>Zawartość schowka jest większa niż zaznaczono.
+Czy na pewno chcesz ją wstawić?</translation>
     </message>
 </context>
 <context>
@@ -1714,7 +1718,7 @@ x~y	Range: values between x and y</source>
     <message>
         <location filename="../FilterLineEdit.cpp" line="113"/>
         <source>What&apos;s This?</source>
-        <translation type="unfinished"></translation>
+        <translation>Co to jest?</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="118"/>
@@ -1906,7 +1910,7 @@ x~y	Range: values between x and y</source>
     <message>
         <location filename="../ForeignKeyEditorDelegate.cpp" line="22"/>
         <source>Foreign key clauses (ON UPDATE, ON DELETE etc.)</source>
-        <translation type="unfinished"></translation>
+        <translation>Klauzule kluczy obcych (ON UPDATE, ON DELETE itd.)</translation>
     </message>
 </context>
 <context>
@@ -2073,7 +2077,7 @@ x~y	Range: values between x and y</source>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="536"/>
         <source>Creating restore point failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tworzenie punktu przywracania nie powiodło się: %1</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="549"/>
@@ -2101,7 +2105,7 @@ x~y	Range: values between x and y</source>
     <message>
         <location filename="../MainWindow.ui" line="14"/>
         <source>DB Browser for SQLite</source>
-        <translation>Przeglądarka baz danych dla SQLite</translation>
+        <translation>DB Browser dla SQLite</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="29"/>
@@ -2184,7 +2188,7 @@ You can drag SQL statements from an object row and drop them into other applicat
     <message>
         <location filename="../MainWindow.ui" line="166"/>
         <source>This button clears all the filters set in the header input fields for the currently browsed table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ten przycisk czyści wszystkie filtry ustawione dla nagłówków w aktualnie przeglądanej tabeli.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="180"/>
@@ -2199,7 +2203,7 @@ You can drag SQL statements from an object row and drop them into other applicat
     <message>
         <location filename="../MainWindow.ui" line="186"/>
         <source>...</source>
-        <translation>…</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="224"/>
@@ -2398,7 +2402,7 @@ You can drag SQL statements from an object row and drop them into other applicat
     <message>
         <location filename="../MainWindow.ui" line="1054"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Narzędzia</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1075"/>
@@ -2418,7 +2422,7 @@ You can drag SQL statements from an object row and drop them into other applicat
     <message>
         <location filename="../MainWindow.ui" line="1124"/>
         <source>Show S&amp;QL submitted by</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż S&amp;QL wykonany przez</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1141"/>
@@ -2481,7 +2485,7 @@ You can drag SQL statements from an object row and drop them into other applicat
     <message>
         <location filename="../MainWindow.ui" line="1330"/>
         <source>&amp;New Database...</source>
-        <translation>&amp;Nowa baza danych…</translation>
+        <translation>&amp;Nowa baza danych...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1333"/>
@@ -2503,7 +2507,7 @@ You can drag SQL statements from an object row and drop them into other applicat
         <location filename="../MainWindow.ui" line="1354"/>
         <location filename="../MainWindow.ui" line="2208"/>
         <source>&amp;Open Database...</source>
-        <translation>&amp;Otwórz bazę danych…</translation>
+        <translation>&amp;Otwórz bazę danych...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1357"/>
@@ -2556,7 +2560,7 @@ You can drag SQL statements from an object row and drop them into other applicat
     <message>
         <location filename="../MainWindow.ui" line="1417"/>
         <source>This option is used to revert the current database file to its last saved state. All changes made since the last save operation are lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta opcja jest używana do przywrócenia pliku bazy danych do ostatniego zapisanego stanu. Wszystkie zmiany wprowadzone od ostatniego zapisu zostaną utracone.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1432"/>
@@ -2590,12 +2594,12 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="197"/>
         <source>Print currently browsed table data</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukuj obecnie przeglądaną tabelę</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="200"/>
         <source>Print currently browsed table data. Print selection if more than one cell is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukuj obecnie przeglądaną tabelę. Drukuj zaznaczenie jeśli zaznaczona jest więcej niż jedna komórka.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1455"/>
@@ -2626,12 +2630,12 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1483"/>
         <source>&amp;Database from SQL file...</source>
-        <translation>Baza &amp;danych z pliku SQL…</translation>
+        <translation>Baza &amp;danych z pliku SQL...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1486"/>
         <source>Import data from an .sql dump text file into a new or existing database.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaimportuj dane z pliku .sql do nowej lub istniejącej bazy danych.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1489"/>
@@ -2641,7 +2645,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1497"/>
         <source>&amp;Table from CSV file...</source>
-        <translation>&amp;Tabela z pliku CSV…</translation>
+        <translation>&amp;Tabela z pliku CSV...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1500"/>
@@ -2656,7 +2660,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1511"/>
         <source>&amp;Database to SQL file...</source>
-        <translation>Baza &amp;danych fo pliku SQL…</translation>
+        <translation>Baza &amp;danych fo pliku SQL...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1514"/>
@@ -2671,7 +2675,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1525"/>
         <source>&amp;Table(s) as CSV file...</source>
-        <translation>&amp;Tabela/e jako plik CSV…</translation>
+        <translation>&amp;Tabela/e jako plik CSV...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1528"/>
@@ -2686,7 +2690,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1546"/>
         <source>&amp;Create Table...</source>
-        <translation>&amp;Utwórz tabelę…</translation>
+        <translation>&amp;Utwórz tabelę...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1549"/>
@@ -2696,7 +2700,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1564"/>
         <source>&amp;Delete Table...</source>
-        <translation>U&amp;suń tabelę…</translation>
+        <translation>U&amp;suń tabelę...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1567"/>
@@ -2712,7 +2716,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1585"/>
         <source>&amp;Modify Table...</source>
-        <translation>&amp;Modyfikuj tabelę…</translation>
+        <translation>&amp;Modyfikuj tabelę...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1588"/>
@@ -2722,7 +2726,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1603"/>
         <source>Create &amp;Index...</source>
-        <translation>Utwórz &amp;indeks…</translation>
+        <translation>Utwórz &amp;indeks...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1606"/>
@@ -2732,7 +2736,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1618"/>
         <source>&amp;Preferences...</source>
-        <translation>&amp;Preferencje…</translation>
+        <translation>&amp;Preferencje...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1621"/>
@@ -2769,22 +2773,22 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1668"/>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;O</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1739"/>
         <source>&amp;Load Extension...</source>
-        <translation type="unfinished"></translation>
+        <translation>Załaduj rozszerzenie...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1780"/>
         <source>&amp;Wiki</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wiki</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1792"/>
         <source>Bug &amp;Report...</source>
-        <translation type="unfinished"></translation>
+        <translation>Zgłoszenie błędu...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1804"/>
@@ -2794,7 +2798,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1816"/>
         <source>Web&amp;site</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Strona internetowa</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1828"/>
@@ -2804,22 +2808,22 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1840"/>
         <source>Sa&amp;ve Project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisz projekt...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1861"/>
         <source>Open &amp;Project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz &amp;projekt...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1885"/>
         <source>&amp;Attach Database...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dołącz bazę d&amp;anych...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1906"/>
         <source>&amp;Set Encryption...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">U&amp;staw szyfrowanie...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1936"/>
@@ -2834,7 +2838,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="2228"/>
         <source>Insert Values...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wstaw wartości...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2231"/>
@@ -2913,7 +2917,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="2310"/>
         <source>&amp;Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Optymalizuj</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2313"/>
@@ -2929,7 +2933,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
         <location filename="../MainWindow.ui" line="2325"/>
         <location filename="../MainWindow.ui" line="2349"/>
         <source>Print</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukuj</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2328"/>
@@ -2953,7 +2957,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     </message>
     <message>
         <source>&amp;About...</source>
-        <translation type="vanished">O progr&amp;amie…</translation>
+        <translation type="vanished">O progr&amp;amie...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1676"/>
@@ -2968,7 +2972,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1688"/>
         <source>This button opens a new tab for the SQL editor</source>
-        <translation>Ten przycisk otwiera nową tabelę w edytorze SQL</translation>
+        <translation>Ten przycisk otwiera nową kartę w edytorze SQL</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1700"/>
@@ -3038,15 +3042,15 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     </message>
     <message>
         <source>&amp;Wiki...</source>
-        <translation type="vanished">&amp;Wiki…</translation>
+        <translation type="vanished">&amp;Wiki...</translation>
     </message>
     <message>
         <source>Bug &amp;report...</source>
-        <translation type="vanished">&amp;Zgłoś błędy…</translation>
+        <translation type="vanished">&amp;Zgłoś błędy...</translation>
     </message>
     <message>
         <source>Web&amp;site...</source>
-        <translation type="vanished">&amp;Strona internetowa…</translation>
+        <translation type="vanished">&amp;Strona internetowa...</translation>
     </message>
     <message>
         <source>Sa&amp;ve Project</source>
@@ -3131,12 +3135,12 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="1973"/>
         <source>Show rowid column</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż kolumnę rowid</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1976"/>
         <source>Toggle the visibility of the rowid column</source>
-        <translation type="unfinished"></translation>
+        <translation>Przełącz widoczność kolumny rowid</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1981"/>
@@ -3161,7 +3165,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     </message>
     <message>
         <source>SQLCipher &amp;FAQ...</source>
-        <translation type="vanished">&amp;FAQ SQLCipher…</translation>
+        <translation type="vanished">&amp;FAQ SQLCipher...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2004"/>
@@ -3171,7 +3175,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="2009"/>
         <source>Table(&amp;s) to JSON...</source>
-        <translation>Tabela/e do J&amp;SON…</translation>
+        <translation>Tabela/e do J&amp;SON...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2012"/>
@@ -3191,7 +3195,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.ui" line="2032"/>
         <source>Open Data&amp;base Read Only...</source>
-        <translation>Otwórz &amp;bazę danych tylko do odczytu…</translation>
+        <translation>Otwórz &amp;bazę danych tylko do odczytu...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2035"/>
@@ -3360,7 +3364,7 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
     <message>
         <location filename="../MainWindow.cpp" line="292"/>
         <source>Encrypted</source>
-        <translation>Szyfrowana</translation>
+        <translation>Zaszyfrowana</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="293"/>
@@ -3423,7 +3427,7 @@ Powód: %1</translation>
     <message>
         <location filename="../MainWindow.cpp" line="901"/>
         <source>determining row count...</source>
-        <translation>określanie liczby rzędów…</translation>
+        <translation>określanie liczby rzędów...</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="904"/>
@@ -4034,7 +4038,7 @@ Select the axes or axes labels to drag and zoom only in that orientation.</sourc
     <message>
         <location filename="../PlotDock.ui" line="259"/>
         <source>Save current plot...</source>
-        <translation>Zapisz obecny wykres…</translation>
+        <translation>Zapisz obecny wykres...</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="285"/>
@@ -4164,7 +4168,7 @@ Warning: not all data has been fetched from the table yet due to the partial fet
         <location filename="../PreferencesDialog.ui" line="1418"/>
         <location filename="../PreferencesDialog.ui" line="1474"/>
         <source>...</source>
-        <translation>…</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="96"/>
@@ -4763,7 +4767,7 @@ All your preferences will be lost and default values will be used.</source>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="127"/>
         <source>Importing CSV file...</source>
-        <translation>Importowanie pliku CSV…</translation>
+        <translation>Importowanie pliku CSV...</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="128"/>
@@ -5405,7 +5409,7 @@ Use of this function must be authorized from Preferences.</source>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="265"/>
         <source>loading...</source>
-        <translation>ładowanie…</translation>
+        <translation>ładowanie...</translation>
     </message>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="307"/>
@@ -5428,7 +5432,7 @@ Hold %3Shift and click to jump there</source>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="952"/>
         <source>Fetching data...</source>
-        <translation>Uzyskiwanie danych…</translation>
+        <translation>Uzyskiwanie danych...</translation>
     </message>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="953"/>
